@@ -4,4 +4,4 @@ type: object
 documents:
   - query
   - selected
-properties: []
+properties: {}
