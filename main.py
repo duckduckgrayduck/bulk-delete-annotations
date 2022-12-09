@@ -10,7 +10,7 @@ class MassDeleteAnnotations(AddOn):
     def main(self):
         """The main add-on functionality goes here."""
         for document in self.get_documents():
-            for note in doc_obj.annotations:
+            for note in document.annotations:
                 document.annotations.delete(note)
 
 if __name__ == "__main__":
