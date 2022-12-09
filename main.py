@@ -1,10 +1,5 @@
 """
-This is a hello world add-on for DocumentCloud.
-
-It demonstrates how to write a add-on which can be activated from the
-DocumentCloud add-on system and run using Github Actions.  It receives data
-from DocumentCloud via the request dispatch and writes data back to
-DocumentCloud using the standard API
+This is an Add-On derived from the Hello World Template, it allows you to mass delete all annotations in a set of documents. 
 """
 
 from documentcloud.addon import AddOn
