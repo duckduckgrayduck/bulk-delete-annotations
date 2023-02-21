@@ -12,6 +12,7 @@ class MassDeleteAnnotations(AddOn):
         for document in self.get_documents():
             for note in document.annotations:
                 note.delete()
+                note.save()
 
 if __name__ == "__main__":
     MassDeleteAnnotations().main()
