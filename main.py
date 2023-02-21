@@ -2,9 +2,9 @@
 This is an Add-On derived from the Hello World Template, it allows you to mass delete all annotations in a set of documents. 
 """
 
-from documentcloud.addon import AddOn
+from documentcloud.addon import AddOn, SoftTimeOutAddOn
 
-class MassDeleteAnnotations(AddOn):
+class MassDeleteAnnotations(SoftTimeOutAddOn):
     """Add-On that runs through all documents in a selection or query and deletes annotations for them""" 
 
     def main(self):
