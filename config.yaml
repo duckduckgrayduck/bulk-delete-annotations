@@ -1,4 +1,4 @@
-title: Mass Delete Annotations
+title: Bulk Delete Annotations
 description: This AddOn runs through all documents either selected or queried and deletes the annotations for documents. 
 type: object
 documents:
