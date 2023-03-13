@@ -5,4 +5,4 @@
 
 # Bulk Delete Annotations Add-On
 
-This repository contains a DocumentCloud AddOn that allows you to run through a selection or query of documents and delete annotations in mass. 
+This repository contains a DocumentCloud AddOn that allows you to run through a selection or query of documents and delete annotations in bulk. 
