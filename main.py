@@ -4,7 +4,7 @@ This is an Add-On derived from the Hello World Template, it allows you to mass d
 
 from documentcloud.addon import AddOn, SoftTimeOutAddOn
 
-class MassDeleteAnnotations(SoftTimeOutAddOn):
+class BulkDeleteAnnotations(SoftTimeOutAddOn):
     """Add-On that runs through all documents in a selection or query and deletes annotations for them""" 
 
     def main(self):
@@ -14,4 +14,4 @@ class MassDeleteAnnotations(SoftTimeOutAddOn):
                 note.delete()
 
 if __name__ == "__main__":
-    MassDeleteAnnotations().main()
+    BulkDeleteAnnotations().main()
