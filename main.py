@@ -9,9 +9,9 @@ class BulkDeleteAnnotations(SoftTimeOutAddOn):
 
     def main(self):
         """The main add-on functionality goes here."""
-        if not self.documents:
+        """if not self.documents:
             self.set_message("Please select at least one document.")
-            return
+            return"""
         for document in self.get_documents():
             for note in document.annotations:
                 note.delete()
